@@ -15,7 +15,7 @@ function WebPage() {
         <img src={IMS} alt="" className="logo" ></img>
       </div>
       <div className="contentDiv">
-        <h1 className="heading1">ENGAGE WITH THE <span className="emerging">EMERGING AND </span></h1>
+        <h1 className="heading1"><span className="emerging1">ENGAGE WITH THE </span><span className="emerging">EMERGING AND </span></h1>
         <h1 className="heading2"> <span className="emerging">TRANSFORM</span> AT THE INTERSECT</h1>
         <p className="para1">IT Monks Solutions Pvt Ltd is a dynamic player in the Information Technology Development and</p>
         <p className="para2">Services industry, committed to driving innovation and delivering cutting-edge solutions.</p>

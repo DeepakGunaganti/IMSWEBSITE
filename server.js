@@ -67,7 +67,7 @@ const storage = multer.diskStorage({
                 res.json({ msg: "user created successfully", status: "success"});
             } catch (error){
                console.log(error);
-               res.json({ msg: "unable to create user", status:"fail"})
+               res.json({ msg: "unable to create user", status:"fail"});
             }
         }
      }

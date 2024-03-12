@@ -13,10 +13,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2%; 
 }
 
 .emerging {
   color: #E51A1E;
+  font-family: pt;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0em;
+  font-weight: bold;
+}
+.emerging1{
+  color:rgb(44, 42, 42);
+  font-family: pt;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0em;
+  font-weight: bold;
 }
 
 .heading1,
@@ -28,9 +42,6 @@
   font-weight: bold;
 }
 
-.heading1 {
-  margin-top: 2%;
-}
 
 .widthAdjust {
   max-width: 100%;
