@@ -55,7 +55,7 @@ function Login() {
                dataToSend.append("password", passwordInputRef.current.value);
                
                try{
-                   let response = await axios.post("http://localhost:8888/login", dataToSend);
+                   let response = await axios.post("/login", dataToSend);
                    console.log('Response Data:', response.data);
                        alert(response.data.status);
 

@@ -3,9 +3,12 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const multer = require("multer");
 const app = express();
-const dotenv = require("dotenv");
+const dotenv = require("dotenv"); 
+const express = require("express"); 
+const path = require("path")
 dotenv.config();
-app.use(cors())
+app.use(cors()); 
+app.use(express.static(path.join(__dirname, "./client/build"))); 
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {

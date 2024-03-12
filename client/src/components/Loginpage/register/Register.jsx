@@ -74,7 +74,7 @@ const  SignUp =() =>{
       dataToSend.append("password", passwordInputRef.current.value);
 
       try {
-        let response = await axios.post("http://localhost:8888/SignUp", dataToSend);
+        let response = await axios.post("/SignUp", dataToSend);
         console.log(response);
         console.log(response.data.status);
         alert(response.data.msg);
