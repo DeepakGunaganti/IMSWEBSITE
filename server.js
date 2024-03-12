@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const multer = require("multer");
 const app = express();
 const dotenv = require("dotenv"); 
-const express = require("express"); 
 const path = require("path")
 dotenv.config();
 app.use(cors()); 
