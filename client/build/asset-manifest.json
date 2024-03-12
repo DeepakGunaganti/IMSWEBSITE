@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.354ba497.css",
-    "main.js": "/static/js/main.e44b72af.js",
+    "main.css": "/static/css/main.032f53e3.css",
+    "main.js": "/static/js/main.79a09404.js",
     "static/js/453.0a43b217.chunk.js": "/static/js/453.0a43b217.chunk.js",
     "static/media/Jomolhari-Regular.ttf": "/static/media/Jomolhari-Regular.ea3e313ba5e1f4bbd57f.ttf",
     "static/media/handshake.png": "/static/media/handshake.a754373ce80e1ba66f34.png",
@@ -32,12 +32,12 @@
     "static/media/employer-networking 1.jpg": "/static/media/employer-networking 1.13cb00357f02356a9f3a.jpg",
     "static/media/imsnewlogo.png": "/static/media/imsnewlogo.af15a94fbff5b4e8ca0e.png",
     "index.html": "/index.html",
-    "main.354ba497.css.map": "/static/css/main.354ba497.css.map",
-    "main.e44b72af.js.map": "/static/js/main.e44b72af.js.map",
+    "main.032f53e3.css.map": "/static/css/main.032f53e3.css.map",
+    "main.79a09404.js.map": "/static/js/main.79a09404.js.map",
     "453.0a43b217.chunk.js.map": "/static/js/453.0a43b217.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.354ba497.css",
-    "static/js/main.e44b72af.js"
+    "static/css/main.032f53e3.css",
+    "static/js/main.79a09404.js"
   ]
 }

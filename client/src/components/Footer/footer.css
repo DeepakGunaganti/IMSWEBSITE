@@ -67,10 +67,11 @@
     /* width: 133%; 
 } */
 
-.footer-ul{
+.footer{
     display: flex;
     justify-content: space-evenly;
-    margin-left: -35%;
+    margin-left: -13%;
+    width: 50%;
 
 }
 

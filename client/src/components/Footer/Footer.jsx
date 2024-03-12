@@ -44,7 +44,7 @@ function Footer() {
                     <a href="https://www.facebook.com/profile.php?id=61553934685933&mibextid=ZbWKwL" target="_blank"><img src={icon} alt="" ></img> </a>
                     <a  href="https://www.instagram.com/itmonks_solutions?igsh=Z2h5d3Ezbjg3aHNr" target="_blank"><img src={icon1} alt=""></img> </a> */}
                     </div>
-                    <ul className="footer-ul">
+                    <ul className="footer">
                         <li className="footer-item">
                             <a className="footer-a" href="https://www.instagram.com/itmonks_solutions?igsh=Z2h5d3Ezbjg3aHNr">
                             <CiInstagram className="footer-icon" />
