@@ -74,7 +74,7 @@ const  SignUp =() =>{
       dataToSend.append("password", passwordInputRef.current.value);
 
       try {
-        let response = await axios.post("/SignUp", dataToSend);
+        let response = await axios.post("http://localhost:8888/SignUp", dataToSend);
         console.log(response);
         console.log(response.data.status);
         alert(response.data.msg);
@@ -110,7 +110,7 @@ const  SignUp =() =>{
                     <button type="button" className="btn2" onClick={()=>{
                         postDataIntoDb();
                     }}>Register</button>
-                    <h2>Already User?{""} <NavLink to="/" ><h4 style={{display:"inline-block", color:"white"}}>log in</h4></NavLink>{""} </h2>
+                    <h2>Already User?{""} <NavLink to="/login" ><h4 style={{display:"inline-block", color:"white"}}>log in</h4></NavLink>{""} </h2>
                 </form>
                 
             </div>

@@ -39,7 +39,7 @@ function HeaderNavbar() {
             <div className="sallymaindiv" style={{ height: "70px" }}>
                 <div className="sallylogo" onClick={()=> navigate("/")}> <img src={img1} alt="logo" /></div>
                 <div className="sallyitems">
-                    <div className="sallyitemsInside" style={{cursor:"pointer",borderRadius:"5px"}} onClick={()=>navigate("/")} onMouseOut={()=>navigate("/")} >Home</div>
+                    <div className="sallyitemsInside" style={{cursor:"pointer",borderRadius:"5px"}} onClick={()=>navigate("/")} >Home</div>
                     <div className="sallyitemsInside1" style={{cursor:"pointer",borderRadius:"5px"}} onMouseOver={() => {
                         setOpen(!open);
                         sallyPopUp.current.style.visibility = "visible";
